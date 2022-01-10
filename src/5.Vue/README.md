@@ -1,21 +1,23 @@
 1. 说一下 Vue 的双向绑定。
-   > vue 的双向绑定主要采用的是：数据劫持和发布者-订阅者模式完成的。具体是通过 Object.defineProperty()来劫持数据的 getter 和 setter 的，并且在触发的时候通知订阅者们，从而做到 data 到 view 的更新。而 view 到 data 的更新则可以通过事件绑定实现。
+
+> vue 的双向绑定主要采用的是：数据劫持和发布者-订阅者模式完成的。具体是通过 Object.defineProperty()来劫持数据的 getter 和 setter 的，并且在触发的时候通知订阅者们，从而做到 data 到 view 的更新。而 view 到 data 的更新则可以通过事件绑定实现。
+
 2. 对 MVC 和 MVVM 的理解。
 
-   > M:代表 Model，数据模型。V:代表 View，视图，可以理解为和用户进行交互的部分。C:代表 Controller，控制器，即用来控制数据如何展示到视图上的，可以理解为将数据转换成 View 的转换器。VM:代表 ViewModel，它不同于 Controller 的区别在于，ViewModel 和 Model 是双向绑定的。
+> M:代表 Model，数据模型。V:代表 View，视图，可以理解为和用户进行交互的部分。C:代表 Controller，控制器，即用来控制数据如何展示到视图上的，可以理解为将数据转换成 View 的转换器。VM:代表 ViewModel，它不同于 Controller 的区别在于，ViewModel 和 Model 是双向绑定的。
 
-   MVC 模式：
+MVC 模式：
 
-   1. View 传送指令到 Controller。
-   2. Controller 处理指令，即完成业务逻辑，控制数据完成更新。
-   3. 数据完成更新。
+1.  View 传送指令到 Controller。
+2.  Controller 处理指令，即完成业务逻辑，控制数据完成更新。
+3.  数据完成更新。
 
-   MVVM 模式：
-   大致和 MVC 模式是一样的，唯一的区别是，它采用的是双向绑定：View 的变化，会自动同步到 ViewModel，反之亦然。
+MVVM 模式：
+大致和 MVC 模式是一样的，唯一的区别是，它采用的是双向绑定：View 的变化，会自动同步到 ViewModel，反之亦然。
 
 3. 介绍一下虚拟 DOM
 
-   > 虚拟 DOM 是为了节省浏览器资源，降低 DOM 渲染、更新消耗而生的。
+> 虚拟 DOM 是为了节省浏览器资源，降低 DOM 渲染、更新消耗而生的。
 
 4. Vue 的生命周期。
 
