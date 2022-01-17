@@ -12,3 +12,4 @@
 - [CSS 与 CSS3 进阶](src/9.CSS与CSS3进阶/README.md)
 - [JavaScript](src/10.JavaScript/README.md)
 - [TypeScript](src/11.TypeScript/README.md)
+- [cookie，localStorage，sessionStorage 的区别](src/12.storage/README.md)
