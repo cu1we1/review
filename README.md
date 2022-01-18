@@ -13,3 +13,4 @@
 - [JavaScript](src/10.JavaScript/README.md)
 - [TypeScript](src/11.TypeScript/README.md)
 - [cookie，localStorage，sessionStorage 的区别](src/12.storage/README.md)
+- [移动端 click 延时解决方案](src/13.移动端click延时解决方案/README.md)
