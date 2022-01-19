@@ -113,7 +113,7 @@ String.prototype.padStart(targetLength, padString);
 // '                cuiwei'
 ```
 
-#### 6.String.prototype.padEnd();
+#### 6. String.prototype.padEnd();
 
 > String.prototype.padEnd()方法功能和 String.prototype.padStart()一样，区别在于此方法从当前字符串右侧开始填充。
 
@@ -124,4 +124,27 @@ String.prototype.padStart(targetLength, padString);
 // 'cuiweiyanr'
 "cuiwei".padEnd(1, "yanrou");
 // 'cuiwei'
+```
+
+#### 7. String.prototype.trim();
+
+> String.prototype.trim();方法会从一个字符串的两端删除空白符。
+
+#### 8. String.prototype.trimEnd()/String.prototype.trimRight();
+
+> String.prototype.trim();方法会从一个字符串的末端删除空白符。
+
+#### 9. String.prototype.trimStart()/String.prototype.trimLeft();
+
+> String.prototype.trim();方法会从一个字符串的开端删除空白符。
+
+#### 10. String.prototype.concat();
+
+> 此方法将一个或多个字符串与原字符串连接合并，形成一个新的字符串并返回。
+
+实例
+
+```javascript
+"cuiwei".concat("yanrou", "123");
+// 'cuiweiyanrou123'
 ```
