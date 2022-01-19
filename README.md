@@ -16,3 +16,4 @@
 - [移动端 click 延时解决方案](src/13.移动端click延时解决方案/README.md)
 - [手写防抖和截流](src/14.手写防抖和截流/README.md)
 - [bind,apply,call 的区别](src/15.bind,apply,call的区别/README.md)
+- [ES6 新增方法](src/16.ES6新增方法/README.md)
