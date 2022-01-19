@@ -21,6 +21,8 @@ call(this, arg1, arg2, arg3, ....);
 ```javascript
 Math.max.call({}, 1, 2, 3, 4);
 // 4
+// 类数组转换成数组
+Array.prototype.slice.call(document.getElementsByClassName("card_box"));
 ```
 
 2. bind
@@ -40,6 +42,8 @@ Math.max.bind({}, 1, 2, 3, 4)();
 // 4
 Math.max.bind({}, 1, 2, 3, 4)(5);
 // 5
+// 类数组转换成数组
+Array.prototype.slice.apply(document.getElementsByClassName("card_box"));
 ```
 
 3. apply
