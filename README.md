@@ -15,3 +15,4 @@
 - [cookie，localStorage，sessionStorage 的区别](src/12.storage/README.md)
 - [移动端 click 延时解决方案](src/13.移动端click延时解决方案/README.md)
 - [手写防抖和截流](src/14.手写防抖和截流/README.md)
+- [bind,apply,call 的区别](src/15.bind,apply,call的区别/README.md)
