@@ -17,3 +17,5 @@
 - [手写防抖和截流](src/14.手写防抖和截流/README.md)
 - [bind,apply,call 的区别](src/15.bind,apply,call的区别/README.md)
 - [ES6 新增方法](src/16.ES6新增方法/README.md)
+- [剩余参数](src/17.剩余参数/README.md)
+- [arguments](src/18.arguments/README.md)
