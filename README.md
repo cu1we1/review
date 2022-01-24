@@ -19,3 +19,4 @@
 - [ES6 新增方法](src/16.ES6新增方法/README.md)
 - [剩余参数](src/17.剩余参数/README.md)
 - [arguments](src/18.arguments/README.md)
+- [正则](src/19.正则/README.md)
