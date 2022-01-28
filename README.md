@@ -20,4 +20,5 @@
 - [剩余参数](src/17.剩余参数/README.md)
 - [arguments](src/18.arguments/README.md)
 - [正则](src/19.正则/README.md)
-- [leetcode](src/20.leetcode/README.md);
+- [leetcode](src/20.leetcode/README.md)
+- [实现 Promise](src/21.实现Promise/README.md)
