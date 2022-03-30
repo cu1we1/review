@@ -23,7 +23,8 @@ class MySub {
     const _this = this;
     if (Array.isArray(this.listener[eventName])) {
       this.listener.forEach(item => {
-        typeof item === "function" && fn.call(_this, args);
+        // typeof item === "function" && fn.call(_this, ...args);
+        typeof item === "function" && fn.apply(_this, args);
       });
     }
   }
